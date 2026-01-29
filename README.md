@@ -93,4 +93,4 @@ Keyboard Interception: Used hideKeyboard commands to prevent the on-screen keybo
 Element Reliability: Used resource IDs (test-Cart) where available, with coordinate fallbacks for robustness across different device sizes.
 
 📸 Screenshots / Demo
-<img width="1306" height="803" alt="Screenshot 2026-01-29 at 11 08 52 AM" src="https://github.com/user-attachments/assets/daad2187-a595-452d-b9f1-de5470fff8c2" />
+https://drive.google.com/file/d/1p7UHpDfl9ZS5Ugs-IAuumWii8PCCiagn/view?usp=sharing
