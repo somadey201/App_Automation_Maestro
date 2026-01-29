@@ -1,4 +1,4 @@
-# 🛒 Swag Labs Mobile Automation (Maestro)
+# 🛒 Mobile Automation (Maestro)
 
 [![Maestro](https://img.shields.io/badge/Tested%20with-Maestro-purple)](https://maestro.mobile.dev/)
 [![Platform](https://img.shields.io/badge/Platform-Android-green)](https://www.android.com/)
