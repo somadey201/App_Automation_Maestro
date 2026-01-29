@@ -1,0 +1,49 @@
+appId: com.swaglabsmobileapp
+---
+- launchApp
+
+- assertVisible: "Login" 
+- tapOn: "Username"
+- inputText: "standard_user"
+- tapOn: "Password"
+- inputText: "secret_sauce"
+- hideKeyboard
+- tapOn: "LOGIN"
+
+- assertVisible: "PRODUCTS"
+- tapOn: "ADD TO CART" 
+
+- tapOn:
+    point: "92%,6%"
+
+- assertVisible: "YOUR CART"
+- tapOn: "CHECKOUT"
+
+- assertVisible: "CHECKOUT: INFORMATION"
+- tapOn: "First Name"
+- inputText: "Soma"
+- tapOn: "Last Name"
+- inputText: "Dey"
+- tapOn: "Zip/Postal Code"
+- inputText: "12345"
+- hideKeyboard
+- tapOn: "CONTINUE"
+
+- assertVisible: "CHECKOUT: OVERVIEW"
+- scrollUntilVisible:
+    element:
+      text: "FINISH"
+    direction: DOWN
+- tapOn: "FINISH"
+
+
+- assertVisible: "THANK YOU FOR YOU ORDER"
+- tapOn: "BACK HOME"
+
+- tapOn:
+    point: "8%,6%"
+
+- assertVisible: "LOGOUT"
+- tapOn: "LOGOUT"
+
+- assertVisible: "Username"
